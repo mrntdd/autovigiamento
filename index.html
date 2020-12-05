@@ -1,0 +1,72 @@
+<html>
+<head>
+	<title>Nome da página</title>
+	<meta charset="UTF-8">
+	<!--essa linha abaixo é importante para deixar o layout responsivo-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<style>
+		body {
+			background: black;
+		}
+
+		div {
+			text-align: center;
+			background: black;
+		}
+		
+		p {
+			text-align: center;
+			color: white;
+		}
+		
+		
+		.grid {
+			display: grid;
+			justify-items:center;
+			width:1000;
+			margin:auto;
+
+			/*altere abaixo a quantidade de colunas ao escrever repetidamente a palavra 'auto'*/
+			grid-template-columns: auto auto auto auto auto;
+		}
+
+		/* altere esse 600px abaixo para considerar larguras de telas maiores ou menores */
+		@media only screen and (max-width: 1000px) {
+		  .grid {
+		  	/* No caso de celular, uma única coluna */
+		  	width: auto;
+		  	grid-template-columns: auto;
+		  }
+		}
+	</style>
+</head>
+<body> 
+
+	<p>TÍTULO</p>
+	<div class='grid'>
+	
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		<img src="https://github.com/mrntdd/autovigiamento/blob/autovigiamento1/mamao1.gif?raw=true" width="200" height="200"></img>
+		
+		
+	</div>
+<a href="teste3.html">
+	<p>RETORNAR</p>
+	
+	
+
+</body>
+</html>
